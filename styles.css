@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(49, 46, 46);
+    color: black;
+    width: 100%;
+}
+
+.parent {
+    background-color: white;
+    width: 50%;
+    margin: 1% 25%;
+    padding-top: 25px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+
+table {
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+td {
+    width: 25%;
+}
+
+p, td {
+    font-size: 14px;
+}
+
+.second {
+    border-radius: 10px;
+    padding: 6px;
+    margin: 20px 86% 20px 0;
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-left: 22px;
+}
